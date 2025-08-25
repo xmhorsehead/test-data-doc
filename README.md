@@ -9,6 +9,7 @@ Synthetic FHIR test data (JSON) files are available in the [au-fhir-test-data-se
   - Patient, RelatedPerson, Practitioner, PractitionerRole, Organization, HealthcareService, and Location instances are generated from Services Australia (SA) provided data then enriched with additional elements for AU Core Must Support elements and some extra AU Base elements.
   - A limited set of non-SA personas created to test where an IHI is not present in the data.
   - Includes test data for verifying missing data and suppressed data test cases (for details see [MissingAndSuppressedData_TestData.md](docs/MissingAndSuppressedData_TestData.md)).
+  - `Something here explaining the clinical resources`
 
 The following patients in the dataset have AU Core clinical resources associated:
 - baratz-toni
@@ -25,8 +26,11 @@ The following patients in the dataset have AU eRequesting clinical resources ass
 
 ## Links
 
+### Governance
+`Some words and a link to GOVERNANCE.md`
+
 ### Release Strategy and Versioning
-[The release strategy]() establishes a framework for versioning, release management, and iterative development for HL7 AU FHIR Test Data.
+[The release strategy](docs/HL7AUFHIRTestDataReleaseStrategy.md) establishes a framework for versioning, release management, and iterative development for HL7 AU FHIR Test Data.
 
 ### Test Data Coverage of HL7 AU FHIR Implementation Guides
 The test dataset is developed on a best-effort basis, aiming to provide broad coverage of HL7 AU IG profiles and extensions. The extent of coverage evolves iteratively, shaped by the maturity of the IGs, shifting priorities of HL7 AU projects, available resources, and community contributions. For example, in the case of the AU Core IG, the dataset includes coverage of Must Support elements within AU Core profiles and extensions. The current coverage is documented in [AUCoreTestDataCoverage.md](docs/AUCoreTestDataCoverage.md).
